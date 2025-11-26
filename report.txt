@@ -1,0 +1,19 @@
+Info: Processing symbol 'D1:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'D2:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'D7:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'D8:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'D9:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'D10:LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm'.
+Info: Processing symbol 'SW7:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'SW9:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'SW10:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'SW11:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'SW12:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'SW13:Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB'.
+Info: Processing symbol 'U1:OPL:XIAO-RP2040-DIP'.
+Info: Total warnings: 0, errors: 0.
+
+
+
+
+Info: Total warnings: 0, errors: 0.
