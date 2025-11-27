@@ -1301,12 +1301,6 @@
 		(uuid "6712942b-0b3b-4792-aa13-b0d24319c021")
 	)
 	(junction
-		(at 130.81 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67e683ab-99f2-4e12-b99c-ef83ce513466")
-	)
-	(junction
 		(at 146.05 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1329,12 +1323,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c609720-a8cc-4048-a7a9-df68eb6d02b5")
-	)
-	(junction
-		(at 146.05 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb643aa0-d536-47cf-8834-a63197c99b60")
 	)
 	(junction
 		(at 153.67 95.25)
@@ -1843,72 +1831,6 @@
 		(uuid "fc01ea4b-bedd-4228-8d69-c42746900863")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b633235-6323-4b0f-b046-84d2ce66ca7c")
-		(property "Reference" "#PWR05"
-			(at 146.05 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d21a00f4-3afd-4e07-8d1d-526662d75628")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 160.02 125.73 0)
 		(unit 1)
@@ -1977,74 +1899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 130.81 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f32e479-3068-49f0-b4f1-daaf6a114fc8")
-		(property "Reference" "#PWR08"
-			(at 130.81 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ac8d3b4-8b7c-4376-9cfc-c9db9f0b38f1")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 148.59 0)
+		(at 138.43 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "331b2e21-1c65-434a-8f9a-00d99c02c894")
 		(property "Reference" "D1"
-			(at 148.59 142.1698 0)
+			(at 148.59 142.1698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +1917,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 144.7098 0)
+			(at 148.59 144.7098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +1925,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 156.21 0)
+			(at 130.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +1935,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 158.115 0)
+			(at 128.905 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,72 +1969,6 @@
 			(project ""
 				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43f41182-7e17-4318-8933-256e978ea80a")
-		(property "Reference" "#PWR012"
-			(at 130.81 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2accf3d8-e3c7-41a4-8231-3da75f236b42")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2080,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 129.54 0)
+		(at 138.43 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2299,7 +2089,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ddbe5a-4afc-4baa-a8ba-effc03ea6d30")
 		(property "Reference" "D10"
-			(at 148.59 123.1198 0)
+			(at 148.59 123.1198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2097,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 125.6598 0)
+			(at 148.59 125.6598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2105,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 137.16 0)
+			(at 130.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 139.065 0)
+			(at 128.905 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,206 +2221,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c06ef77-cbfd-4074-b038-627bc3996b02")
-		(property "Reference" "#PWR03"
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d22ca143-e50e-4af0-81fa-2c90b1544163")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "502c4b7b-4047-4274-9c40-3c3c140cd117")
-		(property "Reference" "#PWR07"
-			(at 146.05 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f11a51bb-6067-4c97-b82e-d29ae1f18d23")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66114575-e9c1-4ff3-9d5d-d373dfe5e611")
-		(property "Reference" "#PWR010"
-			(at 130.81 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c219cf5c-dba9-4999-b2d8-eba256411119")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 171.45 0)
+		(at 138.43 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2639,7 +2231,7 @@
 		(fields_autoplaced yes)
 		(uuid "89fcb143-940f-4107-a0bc-cef6034ae119")
 		(property "Reference" "D2"
-			(at 148.59 165.0298 0)
+			(at 148.59 165.0298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2239,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 167.5698 0)
+			(at 148.59 167.5698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2247,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 179.07 0)
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 180.975 0)
+			(at 128.905 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,204 +2501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6aa5fee-6021-4798-aba9-098f6bae4bc7")
-		(property "Reference" "#PWR04"
-			(at 146.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d85269f-9ca4-4480-aabb-334d2f8ffbe5")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c93ee2f6-d380-4c32-a256-d702e32101ac")
-		(property "Reference" "#PWR06"
-			(at 146.05 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37b7c435-6b65-45aa-965d-3e4d16721556")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1dd755a-8c2d-40fe-b0db-ebfe593e49ee")
-		(property "Reference" "#PWR013"
-			(at 130.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7d20041-0901-464e-a471-6cc31a4a124a")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 160.02 85.09 0)
 		(unit 1)
@@ -3176,7 +2570,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 109.22 0)
+		(at 138.43 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3185,7 +2579,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a89fd7-c59e-4d9a-b8b9-e91d28143aef")
 		(property "Reference" "D9"
-			(at 148.59 102.7998 0)
+			(at 148.59 102.7998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +2587,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 105.3398 0)
+			(at 148.59 105.3398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +2595,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 116.84 0)
+			(at 130.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 118.745 0)
+			(at 128.905 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,72 +2639,6 @@
 			(project ""
 				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f44ddc52-09af-47ed-81c5-f1061aba1fdd")
-		(property "Reference" "#PWR09"
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28849f99-3ede-40f5-9679-9426070c5db2")
-		)
-		(instances
-			(project ""
-				(path "/127cc617-eb07-4c86-acaa-a97f29bbbfe1"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3386,7 +2714,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 90.17 0)
+		(at 138.43 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3395,7 +2723,7 @@
 		(fields_autoplaced yes)
 		(uuid "f939f92c-fe24-4a67-9e27-321829670817")
 		(property "Reference" "D8"
-			(at 148.59 83.7498 0)
+			(at 148.59 83.7498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +2731,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 86.2898 0)
+			(at 148.59 86.2898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 97.79 0)
+			(at 130.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 99.695 0)
+			(at 128.905 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +2922,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 138.43 71.12 0)
+		(at 138.43 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3603,7 +2931,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe604153-2ffa-4809-bf2a-e29b4b8be2e0")
 		(property "Reference" "D7"
-			(at 148.59 64.6998 0)
+			(at 148.59 64.6998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +2939,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 148.59 67.2398 0)
+			(at 148.59 67.2398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 78.74 0)
+			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +2957,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.97 80.645 0)
+			(at 128.905 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
